@@ -131,4 +131,9 @@
   body {
     @apply bg-background text-foreground;
   }
+  /* Added cursor-pointer for all buttons and links */
+  a,
+  button {
+    cursor: pointer;
+  }
 }

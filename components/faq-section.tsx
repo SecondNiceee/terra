@@ -6,29 +6,38 @@ import { cn } from "@/lib/utils"
 
 const faqs = [
   {
-    question: "How do I start earning?",
+    question: "What is the main purpose of the app?",
     answer:
-      "Choose a character that fits your budget and activate it. Income is automatically credited to your balance every day.",
+      "Our app is designed for depositing and withdrawing funds with a profit calculation of 0.25% to 1% per day. We aim to provide our users with stable income by using their funds for trading on various exchanges.",
   },
   {
-    question: "What is the minimum deposit?",
+    question: "How can I deposit funds into the app?",
     answer:
-      "The minimum deposit is $100 to activate a Trainee level character. The higher the character level, the greater the income percentage.",
+      "You can deposit funds in any amount. Simply follow the instructions in the app to make a deposit. We accept various methods of depositing funds to ensure convenience for all users.",
   },
   {
-    question: "How do I withdraw my earnings?",
+    question: "How does trading work and how do I earn profits?",
     answer:
-      "Withdrawals are available at any time through your personal account. The minimum withdrawal amount is $50. Funds are transferred to your wallet within 24 hours.",
+      "We use your funds for trading on various exchanges with the goal of generating overall profits. Our team of professional traders works to maximize the returns on your investments.",
   },
   {
-    question: "Can I have multiple characters?",
+    question: "How can I withdraw my funds?",
     answer:
-      "Yes, you can own multiple characters at the same time. Income from each character is accumulated in your balance.",
+      "Withdrawing funds can be done through the app interface. Follow the instructions to complete the withdrawal process. Please note that it may take some time to process the withdrawal.",
   },
   {
-    question: "Is there a referral program?",
+    question: "What is the withdrawal fee?",
     answer:
-      "Yes, invite friends and receive 5% of their first deposit. Referral bonuses are credited instantly after your referral activates a character.",
+      "When withdrawing funds, we charge a fee of 15%. This fee is directed towards the development and maintenance of our platform.",
+  },
+  {
+    question: "Are there any risks associated with using the app?",
+    answer:
+      "As with any investment project, there are risks involved. We recommend that you carefully review the terms and not invest more than you are willing to lose. Due to diversification and minimal risk strategies, we have not experienced negative results over a 5-year period.",
+  },
+  {
+    question: "Where can I find additional information about the project?",
+    answer: "You can find additional information about the project, updates, and news on our channels: X and Telegram.",
   },
 ]
 
@@ -56,7 +65,7 @@ export function FAQSection() {
             >
               <button
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                className="w-full flex items-center justify-between p-5 text-left hover:bg-zinc-800/50 transition-colors"
+                className="w-full flex items-center justify-between p-5 text-left hover:bg-zinc-800/50 transition-colors cursor-pointer"
               >
                 <span className="text-white font-medium text-lg pr-4">{faq.question}</span>
                 <ChevronDown
@@ -73,7 +82,7 @@ export function FAQSection() {
                 )}
               >
                 <div className="overflow-hidden">
-                  <p className="px-5 pb-5 text-zinc-400 leading-relaxed">{faq.answer}</p>
+                  <p className="px-5 pt-2 pb-5 text-zinc-400 leading-relaxed">{faq.answer}</p>
                 </div>
               </div>
             </div>

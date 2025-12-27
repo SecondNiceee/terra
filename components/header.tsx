@@ -61,13 +61,18 @@ export function Header() {
             </button>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 text-white/70 hover:text-[#f5d485] transition-colors"
-          >
-            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          <div className="flex items-center gap-3 md:hidden">
+            <button className="px-4 py-2 rounded-lg bg-[linear-gradient(135deg,#be802d_0%,#d4a54a_100%)] text-black font-semibold text-xs tracking-wide">
+              Get Started
+            </button>
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="p-2 text-white/70 hover:text-[#f5d485] transition-colors"
+            >
+              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
@@ -84,9 +89,6 @@ export function Header() {
                   {link.name}
                 </Link>
               ))}
-              <button className="mt-4 px-6 py-3 rounded-lg bg-[linear-gradient(135deg,#be802d_0%,#d4a54a_100%)] text-black font-semibold text-sm tracking-wide">
-                Get Started
-              </button>
             </nav>
           </div>
         )}
