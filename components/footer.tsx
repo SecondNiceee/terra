@@ -17,7 +17,7 @@ export function Footer() {
                 className="drop-shadow-[0_0_10px_rgba(190,128,45,0.5)]"
               />
               <Image
-                src="/images/terra.svg"
+                src="/images/terra2.svg"
                 alt="Teero"
                 width={100}
                 height={20}

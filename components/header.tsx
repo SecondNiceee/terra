@@ -33,7 +33,7 @@ export function Header() {
               className="drop-shadow-[0_0_10px_rgba(190,128,45,0.5)]"
             />
             <Image
-              src="/images/terra.svg"
+              src="/images/terra2.svg"
               alt="Terra"
               width={120}
               height={25}

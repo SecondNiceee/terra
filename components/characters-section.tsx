@@ -97,7 +97,7 @@ export function CharactersSection() {
               className="drop-shadow-[0_0_15px_rgba(190,128,45,0.5)]"
             />
             <Image
-              src="/images/terra.svg"
+              src="/images/terra2.svg"
               alt="Terra"
               width={200}
               height={42}
