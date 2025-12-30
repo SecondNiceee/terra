@@ -4,22 +4,24 @@ const steps = [
   {
     icon: Wallet,
     title: "Choose Your Tier",
-    description: "Select a character tier based on your deposit amount. Higher tiers mean better benefits.",
+    description:
+      "Select a character tier based on your deposit amount. Higher tiers unlock better benefits and lower fees.",
   },
   {
     icon: TrendingUp,
     title: "Earn Daily Returns",
-    description: "Receive 0.2% to 1% daily returns on your deposit. Watch your earnings grow every day.",
+    description:
+      "Receive between 0.2% and 1% daily returns on your deposit. Watch your earnings grow every single day.",
   },
   {
     icon: ArrowDownToLine,
     title: "Withdraw Anytime",
-    description: "Cash out whenever you want. Lower tiers have higher fees, higher tiers enjoy minimal fees.",
+    description: "Cash out whenever you want. Higher tiers enjoy significantly lower withdrawal fees.",
   },
   {
     icon: Shield,
     title: "Level Up",
-    description: "Increase your deposit to unlock higher tiers and enjoy lower withdrawal fees.",
+    description: "Increase your deposit to unlock higher tiers and enjoy even lower withdrawal fees over time.",
   },
 ]
 
@@ -69,7 +71,7 @@ export function HowItWorksSection() {
         <div className="mt-16 flex flex-col items-center">
           <div className="h-px w-48 bg-[linear-gradient(90deg,transparent,#be802d,transparent)] mb-8" />
           <p className="font-body text-center text-white/60 text-base max-w-lg">
-            Start your journey today and let your tiger earn while you relax
+            Get started today and watch your earnings grow automatically
           </p>
         </div>
       </div>

@@ -6,38 +6,39 @@ import { cn } from "@/lib/utils"
 
 const faqs = [
   {
-    question: "What is the main purpose of the app?",
+    question: "What is the main purpose of this app?",
     answer:
-      "Our app is designed for depositing and withdrawing funds with a profit calculation of 0.25% to 1% per day. We aim to provide our users with stable income by using their funds for trading on various exchanges.",
+      "Our app allows users to deposit funds and earn daily profits ranging from 0.25% to 1%. These deposits are used for trading operations across various exchanges, enabling users to generate returns.",
   },
   {
     question: "How can I deposit funds into the app?",
     answer:
-      "You can deposit funds in any amount. Simply follow the instructions in the app to make a deposit. We accept various methods of depositing funds to ensure convenience for all users.",
+      "You can deposit any amount you choose. Simply follow the instructions within the app to complete your deposit. We support various payment methods for your convenience.",
   },
   {
     question: "How does trading work and how do I earn profits?",
     answer:
-      "We use your funds for trading on various exchanges with the goal of generating overall profits. Our team of professional traders works to maximize the returns on your investments.",
+      "We utilize your deposits to conduct trading operations on various exchanges, generating profits. Our team of experienced traders works to ensure consistent returns on your investment.",
   },
   {
     question: "How can I withdraw my funds?",
     answer:
-      "Withdrawing funds can be done through the app interface. Follow the instructions to complete the withdrawal process. Please note that it may take some time to process the withdrawal.",
+      "Withdrawals can be made at any time through the app. Simply follow the on-screen instructions to complete your withdrawal. Processing times may vary based on your tier level.",
   },
   {
     question: "What is the withdrawal fee?",
     answer:
-      "When withdrawing funds, we charge a fee of 15%. This fee is directed towards the development and maintenance of our platform.",
+      "Withdrawal fees vary by tier: YOUNG tier has a 15% fee, ADULT tier 10%, BOSS tier 5%, and GODFATHER tier only 3%. Higher tiers enjoy lower fees.",
   },
   {
     question: "Are there any risks associated with using the app?",
     answer:
-      "As with any investment project, there are risks involved. We recommend that you carefully review the terms and not invest more than you are willing to lose. Due to diversification and minimal risk strategies, we have not experienced negative results over a 5-year period.",
+      "As with any investment, there are inherent risks. We recommend only investing funds you can afford to lose. However, our careful risk management strategies have allowed us to maintain positive results over our 5 years of operation.",
   },
   {
     question: "Where can I find additional information about the project?",
-    answer: "You can find additional information about the project, updates, and news on our channels: X and Telegram.",
+    answer:
+      "For more information, please visit our official channels on X (Twitter) and Telegram, where we regularly post updates and news about the project.",
   },
 ]
 

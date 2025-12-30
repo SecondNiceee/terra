@@ -54,17 +54,26 @@ export function Header() {
             ))}
           </nav>
 
-          {/* CTA Button */}
           <div className="hidden md:block">
-            <button className="px-6 py-2.5 rounded-lg bg-[linear-gradient(135deg,#be802d_0%,#d4a54a_100%)] text-black font-semibold text-sm tracking-wide hover:shadow-[0_0_20px_rgba(190,128,45,0.4)] transition-all duration-300 hover:scale-105">
+            <a
+              href="https://t.me/TeeroAppBot"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-2.5 rounded-lg bg-[linear-gradient(135deg,#be802d_0%,#d4a54a_100%)] text-black font-semibold text-sm tracking-wide hover:shadow-[0_0_20px_rgba(190,128,45,0.4)] transition-all duration-300 hover:scale-105 inline-block"
+            >
               Get Started
-            </button>
+            </a>
           </div>
 
           <div className="flex items-center gap-3 md:hidden">
-            <button className="px-4 py-2 rounded-lg bg-[linear-gradient(135deg,#be802d_0%,#d4a54a_100%)] text-black font-semibold text-xs tracking-wide">
+            <a
+              href="https://t.me/TeeroAppBot"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 rounded-lg bg-[linear-gradient(135deg,#be802d_0%,#d4a54a_100%)] text-black font-semibold text-xs tracking-wide"
+            >
               Get Started
-            </button>
+            </a>
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}

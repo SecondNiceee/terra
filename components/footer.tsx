@@ -11,22 +11,22 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-3">
               <Image
                 src="/images/logo.svg"
-                alt="Terro Logo"
+                alt="Teero Logo"
                 width={40}
                 height={53}
                 className="drop-shadow-[0_0_10px_rgba(190,128,45,0.5)]"
               />
               <Image
                 src="/images/terra.svg"
-                alt="Terro"
+                alt="Teero"
                 width={100}
                 height={20}
                 className="drop-shadow-[0_0_10px_rgba(190,128,45,0.5)]"
               />
             </Link>
             <p className="text-zinc-400 text-sm leading-relaxed">
-              Your trusted platform for passive income through gaming characters. Start earning today with our proven
-              investment system.
+              A platform for earning passive income through game characters. Join thousands of users who are already
+              growing their earnings daily.
             </p>
           </div>
 
@@ -71,11 +71,11 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-zinc-400 text-sm">
                 <Mail className="w-4 h-4 text-amber-400 flex-shrink-0" />
-                <span>support@gameinvest.io</span>
+                <span>support@teero.io</span>
               </li>
               <li className="flex items-center gap-3 text-zinc-400 text-sm">
                 <MapPin className="w-4 h-4 text-amber-400 flex-shrink-0" />
-                <span>123 Gaming Street, NY 10001</span>
+                <span>2847 Oakwood Drive, Austin, TX 78704</span>
               </li>
             </ul>
           </div>
@@ -84,13 +84,17 @@ export function Footer() {
             <h3 className="text-white font-semibold text-lg">Follow Us</h3>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://t.me/teeroapp"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-zinc-800 hover:bg-amber-500/20 border border-zinc-700 hover:border-amber-500/50 rounded-lg flex items-center justify-center transition-all cursor-pointer"
               >
                 <Send className="w-4 h-4 text-zinc-400 hover:text-amber-400" />
               </a>
               <a
-                href="#"
+                href="https://x.com/teeroapp"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-zinc-800 hover:bg-amber-500/20 border border-zinc-700 hover:border-amber-500/50 rounded-lg flex items-center justify-center transition-all cursor-pointer"
               >
                 <svg className="w-4 h-4 text-zinc-400" fill="currentColor" viewBox="0 0 24 24">
@@ -98,13 +102,13 @@ export function Footer() {
                 </svg>
               </a>
             </div>
-            <p className="text-zinc-500 text-xs">Join our community for updates and exclusive offers.</p>
+            <p className="text-zinc-500 text-xs">Join our community for the latest updates and exclusive offers.</p>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-zinc-500 text-sm">© 2025 Terro. All rights reserved.</p>
+          <p className="text-zinc-500 text-sm">© 2025 Teero. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="#" className="text-zinc-500 hover:text-amber-400 text-sm transition-colors cursor-pointer">
               Terms of Use

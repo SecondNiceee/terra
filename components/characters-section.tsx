@@ -38,28 +38,28 @@ const reviews = [
     name: "Marcus T.",
     avatar: "/bearded-man-profile.png",
     rating: 5,
-    text: "Started with YOUNG tier and now I'm a BOSS! The daily returns are incredible. Terra changed my financial game completely.",
+    text: "Started at YOUNG tier and worked my way up to BOSS! The daily returns have been amazing. Honestly changed the way I think about passive income.",
     date: "2 days ago",
   },
   {
     name: "Elena K.",
     avatar: "/blonde-woman-profile.png",
     rating: 5,
-    text: "Love how the withdrawal fees decrease as you level up. My tiger is definitely happy! Already at ADULT tier.",
+    text: "Love how the fees go down as you level up. Already at ADULT tier and watching my earnings grow every day!",
     date: "5 days ago",
   },
   {
     name: "James W.",
     avatar: "/young-man-profile.png",
     rating: 5,
-    text: "The GODFATHER tier is worth every penny. 1% daily returns with only 3% withdrawal fee? This is the future of passive income.",
+    text: "GODFATHER tier is totally worth it. Getting 1% daily with only 3% withdrawal fee? Can't beat that.",
     date: "1 week ago",
   },
   {
     name: "Sofia M.",
     avatar: "/woman-dark-hair-profile-photo.jpg",
     rating: 5,
-    text: "I was skeptical at first but Terra delivered. Consistent earnings every single day. My tiger stays happy!",
+    text: "Was skeptical at first, not gonna lie. But it actually works - been getting consistent returns every day for weeks now.",
     date: "1 week ago",
   },
 ]
@@ -113,9 +113,9 @@ export function CharactersSection() {
           </p>
 
           <div className="flex flex-col items-center">
-            <p className="font-body text-center text-lg sm:text-xl text-white/70 italic">Your tiger is happy...</p>
+            <p className="font-body text-center text-lg sm:text-xl text-white/70 italic">Good things come...</p>
             <p className="font-body text-center text-lg sm:text-xl text-[#f5d485] italic font-medium">
-              when you take your time
+              to those who wait
             </p>
           </div>
         </div>
@@ -165,7 +165,7 @@ export function CharactersSection() {
         <div className="mt-16 flex flex-col items-center">
           <div className="h-px w-48 bg-[linear-gradient(90deg,transparent,#be802d,transparent)] mb-8" />
           <p className="font-body text-center text-white/50 text-sm max-w-2xl">
-            The higher your character level — the lower the withdrawal fee
+            The higher your character level, the lower your withdrawal fee
           </p>
         </div>
 
