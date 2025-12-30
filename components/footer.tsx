@@ -5,8 +5,8 @@ import Image from "next/image"
 export function Footer() {
   return (
     <footer className="border-t border-zinc-800 bg-zinc-950/80 backdrop-blur-sm">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-3">
               <Image
@@ -107,7 +107,7 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-zinc-500 text-sm">© 2025 Teero. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="#" className="text-zinc-500 hover:text-amber-400 text-sm transition-colors cursor-pointer">

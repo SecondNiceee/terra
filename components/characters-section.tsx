@@ -85,9 +85,9 @@ export function CharactersSection() {
         ))}
       </div>
 
-      <div className="relative z-10 mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 py-10 sm:py-16 sm:px-6 lg:px-8">
         {/* Header with Logo */}
-        <div className="flex flex-col items-center mb-12">
+        <div className="flex flex-col items-center mb-8 sm:mb-12">
           <div className="flex items-center gap-4 mb-6">
             <Image
               src="/images/logo.svg"
@@ -162,14 +162,14 @@ export function CharactersSection() {
           ))}
         </div>
 
-        <div className="mt-16 flex flex-col items-center">
+        <div className="mt-10 sm:mt-16 flex flex-col items-center">
           <div className="h-px w-48 bg-[linear-gradient(90deg,transparent,#be802d,transparent)] mb-8" />
           <p className="font-body text-center text-white/50 text-sm max-w-2xl">
             The higher your character level, the lower your withdrawal fee
           </p>
         </div>
 
-        <div id="reviews" className="mt-20">
+        <div id="reviews" className="mt-12 sm:mt-20">
           <h2 className="font-heading text-center text-2xl sm:text-3xl font-bold text-transparent bg-clip-text bg-[linear-gradient(90deg,#d4a54a_0%,#f5d485_50%,#be802d_100%)] mb-12 tracking-[0.15em]">
             What Our Players Say
           </h2>

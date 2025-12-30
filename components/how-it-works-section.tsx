@@ -27,12 +27,12 @@ const steps = [
 
 export function HowItWorksSection() {
   return (
-    <section id="how-it-works" className="relative w-full overflow-hidden py-20">
+    <section id="how-it-works" className="relative w-full overflow-hidden py-12 sm:py-20">
       {/* Gradient overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.5)_0%,transparent_50%,rgba(0,0,0,0.5)_100%)]" />
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 sm:mb-16">
           <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-[linear-gradient(90deg,#d4a54a_0%,#f5d485_50%,#be802d_100%)] mb-4 tracking-[0.15em]">
             How It Works
           </h2>
@@ -68,7 +68,7 @@ export function HowItWorksSection() {
         </div>
 
         {/* CTA */}
-        <div className="mt-16 flex flex-col items-center">
+        <div className="mt-10 sm:mt-16 flex flex-col items-center">
           <div className="h-px w-48 bg-[linear-gradient(90deg,transparent,#be802d,transparent)] mb-8" />
           <p className="font-body text-center text-white/60 text-base max-w-lg">
             Get started today and watch your earnings grow automatically
