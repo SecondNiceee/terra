@@ -10,7 +10,7 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "Terra - Игровые персонажи",
+  title: "Teero - Игровые персонажи",
   description: "Зарабатывайте от 0.2% до 1% в день на игровых персонажах",
   generator: "v0.app",
   icons: {

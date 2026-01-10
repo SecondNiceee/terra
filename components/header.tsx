@@ -27,14 +27,14 @@ export function Header() {
           <Link href="/" className="flex items-center gap-3">
             <Image
               src="/images/logo.svg"
-              alt="Terra Logo"
+              alt="Teero Logo"
               width={40}
               height={53}
               className="drop-shadow-[0_0_10px_rgba(190,128,45,0.5)]"
             />
             <Image
               src="/images/terra2.svg"
-              alt="Terra"
+              alt="Teero"
               width={120}
               height={25}
               className="hidden sm:block drop-shadow-[0_0_10px_rgba(190,128,45,0.5)]"

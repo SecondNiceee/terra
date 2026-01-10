@@ -38,7 +38,7 @@ const faqs = [
   {
     question: "Where can I find additional information about the project?",
     answer:
-      "For more information, please visit our official channels on X (Twitter) and Telegram, where we regularly post updates and news about the project.",
+      "For more information, please visit our official Telegram channel, where we regularly post updates and news about the project.",
   },
 ]
 

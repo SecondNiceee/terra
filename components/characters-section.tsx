@@ -91,14 +91,14 @@ export function CharactersSection() {
           <div className="flex items-center gap-4 mb-6">
             <Image
               src="/images/logo.svg"
-              alt="Terra Logo"
+              alt="Teero Logo"
               width={60}
               height={80}
               className="drop-shadow-[0_0_15px_rgba(190,128,45,0.5)]"
             />
             <Image
               src="/images/terra2.svg"
-              alt="Terra"
+              alt="Teero"
               width={200}
               height={42}
               className="drop-shadow-[0_0_15px_rgba(190,128,45,0.5)]"
